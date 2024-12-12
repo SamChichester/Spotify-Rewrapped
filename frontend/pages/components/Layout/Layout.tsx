@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
+import styles from "./Layout.module.scss";
 
 interface LayoutProps {
   children: React.ReactNode;
