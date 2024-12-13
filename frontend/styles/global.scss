@@ -1,5 +1,7 @@
-$primary-color: #3498db;
+$background-color: #000000;
+$text-color: #f2f0ef;
 
 body {
-  background-color: $primary-color;
+  background-color: $background-color;
+  color: $text-color;
 }
