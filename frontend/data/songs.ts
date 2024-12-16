@@ -67,7 +67,7 @@ export const songs = [
   {
     title: "Head Over Heels",
     artist: "Tears For Fears",
-    albumCover: "https://i.scdn.co/image/ab67616d0000b273d81a092eb373ded457d94eec",
+    albumCover: "https://i.scdn.co/image/ab67616d0000b273a9fac36898dc1302b5f642b3",
   },
   {
     title: "Canta Canta, Minha Gente",
@@ -410,7 +410,7 @@ export const songs = [
     albumCover: "https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9",
   },
   {
-    title: "Vienna",
+    title: "The Stranger",
     artist: "Billy Joel",
     albumCover: "https://i.scdn.co/image/ab67616d0000b2736ce61113662ecf693b605ee5",
   },
@@ -490,9 +490,9 @@ export const songs = [
     albumCover: "https://i.scdn.co/image/ab67616d0000b2736a760642a56847027428cb61",
   },
   {
-    title: "ANDY KAUFMAN",
-    artist: "Anime Yxngoat",
-    albumCover: "https://i.scdn.co/image/ab67616d0000b273ce3d10a904a340adfdbf9dcb",
+    title: "Auditorium",
+    artist: "Mos Def, Slick Rick",
+    albumCover: "https://i.scdn.co/image/ab67616d0000b273cca74dedca4fb2c9bf526fd8",
   },
   {
     title: "Comfortable",
