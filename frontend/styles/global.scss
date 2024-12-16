@@ -139,3 +139,25 @@ body {
 .info-container ul {
   list-style: none;
 }
+
+/* Animation styles */
+.song-container-left,
+.song-container-right {
+  opacity: 0;
+  transform: translateY(0);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.song-container-left {
+  transform: translateX(-20px) translateY(0);
+}
+
+.song-container-right {
+  transform: translateX(20px) translateY(0);
+}
+
+.song-container-left.visible,
+.song-container-right.visible {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+}
