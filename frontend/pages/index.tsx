@@ -26,9 +26,10 @@ const Home: React.FC = () => {
 
   return (
     <div className="container">
-      <h1>Home</h1>
-      <h1>Home</h1>
-      <h1>Home</h1>
+      <div className="home-container">
+        <h1>Top <span className="rainbow">100</span> Songs I Discovered in 2024</h1>
+        <p>Here are my 100 favorite songs I discovered in 2024 ranked in order!</p>
+      </div>
       {songs.map((song, index) => (
         <div
           className={`${

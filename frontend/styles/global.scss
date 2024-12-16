@@ -161,3 +161,43 @@ body {
   opacity: 1;
   transform: translateX(0) translateY(0);
 }
+
+.home-container {
+  margin: 220px 0 270px 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  14% {
+    color: orange;
+  }
+  28% {
+    color: yellow;
+  }
+  42% {
+    color: lightgreen;
+  }
+  57% {
+    color: lightseagreen;
+  }
+  71% {
+    color: rgb(179, 3, 179);
+  }
+  85% {
+    color: violet;
+  }
+  100% {
+    color: red;
+  }
+}
+
+.rainbow {
+  color: red;
+  animation-name: rainbow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
