@@ -4,8 +4,8 @@ const About: React.FC = () => {
   return (
     <div className="container">
       <h1>About</h1>
-      <div className="about-container">
-        <div className="info-container">
+      <div>
+        <div>
           <h2>What is this project?</h2>
           <p>
             This project is my attempt to share some of my favorite songs that I discovered in 2024. 
@@ -14,7 +14,7 @@ const About: React.FC = () => {
             like Next.js.
           </p>
         </div>
-        <div className="info-container">
+        <div>
           <h2>What technologies did you use?</h2>
           <ul>
             <li>Next.js</li>
