@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #000;
+  background-color: #121212;
 }
 
 .navbar-element {
@@ -12,8 +12,12 @@
 
 .navbar-link {
   display: block;
-  color: #fff;
+  color: #e0e0e0;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.navbar-link:hover {
+  background-color: #151515;
 }
