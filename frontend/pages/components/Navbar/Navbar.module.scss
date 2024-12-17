@@ -23,5 +23,6 @@
 }
 
 .navbar-link:hover {
-  background-color: #151515;
+  color: red;
+  transition: color 0.3s ease;
 }

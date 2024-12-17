@@ -63,6 +63,7 @@ body {
   gap: 20px;
   background-color: $left-color;
   padding: 30px;
+  border-radius: 8px;
 }
 
 .song-container-right {
@@ -74,6 +75,7 @@ body {
   // flex-direction: row-reverse;
   background-color: $right-color;
   padding: 30px;
+  border-radius: 8px;
 }
 
 .song-image {
@@ -83,6 +85,7 @@ body {
   height: auto;
   object-fit: contain;
   // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
 }
 
 .song-text {
@@ -149,14 +152,15 @@ body {
 }
 
 .home-container {
-  margin: 220px 0 270px 0;
+  margin: 235px 0 285px 0;
   font-size: 30px;
   text-align: center;
 }
 
 @media (max-width: 768px) {
   .home-container {
-    margin: 0 0 100px 0;
+    font-size: 20px;
+    margin: 175px 0 175px 0;
   }
 }
 
@@ -204,8 +208,8 @@ body {
 
 .about-title {
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+  font-size: 4rem;
+  margin-bottom: 100px;
   color: $text-color;
 }
 
