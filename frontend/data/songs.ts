@@ -1,3 +1,5 @@
+
+// Normally I would use a database to store these songs, but since this is a frontend-only project I am storing them in an array here
 export const songs = [
   {
     title: "Fotografia",
@@ -20,9 +22,9 @@ export const songs = [
     albumCover: "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf",
   },
   {
-    title: "Wonderful",
-    artist: "Annie Lennox",
-    albumCover: "https://i.scdn.co/image/ab67616d0000b273808cfa37e6bc1386cec810c4",
+    title: "Layla",
+    artist: "Derek & The Dominos",
+    albumCover: "https://i.scdn.co/image/ab67616d0000b273fbcaf7402f38faac27610efc",
   },
   {
     title: "Canto de Rainha",
@@ -100,9 +102,9 @@ export const songs = [
     albumCover: "https://i.scdn.co/image/ab67616d0000b273fe1a9aa59e3c6189a09ae37a",
   },
   {
-    title: "Baião / De Onde Vem o Baião - Ao Vivo",
+    title: "De onde vem o baião",
     artist: "Gilberto Gil",
-    albumCover: "https://i.scdn.co/image/ab67616d0000b273d4fc47ac24721fd2f150469f",
+    albumCover: "https://i.scdn.co/image/ab67616d0000b27386d3875c8d72547d8e6f1dc7",
   },
   {
     title: "Face to Face",
