@@ -58,8 +58,9 @@ body {
 .song-container-left {
   display: flex;
   width: 100%;
+  max-width: 1200px;
   justify-content: center;
-  margin-bottom: 100px;
+  margin: 0 auto 100px auto;
   gap: 20px;
   background-color: $left-color;
   padding: 30px;
@@ -69,10 +70,10 @@ body {
 .song-container-right {
   display: flex;
   width: 100%;
+  max-width: 1200px;
   justify-content: center;
-  margin-bottom: 100px;
+  margin: 0 auto 100px auto;
   gap: 20px;
-  // flex-direction: row-reverse;
   background-color: $right-color;
   padding: 30px;
   border-radius: 8px;
@@ -84,13 +85,11 @@ body {
   max-width: 500px;
   height: auto;
   object-fit: contain;
-  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 8px;
 }
 
 .song-text {
   padding: 20px;
-  font-size: clamp(16px, 2.5vw, 30px);
   width: 50%;
   min-width: 120px;
   max-width: 500px;
@@ -98,34 +97,87 @@ body {
 
 .song-text h1 {
   margin: 0 0 10px 0;
-  font-size: 4vw;
+  font-size: 4rem;
 }
 
 .song-text h4 {
   margin: 0 0 5px 0;
-  font-size: 3vw;
+  font-size: 3rem;
 }
 
 .song-text p {
   margin: 0;
-  font-size: 2vw;
+  font-size: 2rem;
 }
 
-/* Media query for mobile devices */
-@media (max-width: 576px) {
-  .song-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+/* Large tablets */
+@media (max-width: 1366px) {
+  .song-container-left,
+  .song-container-right {
+    max-width: 90%;
+    margin-bottom: 60px;
+    padding: 25px;
   }
 
   .song-image {
-    width: 60%;
-    margin-bottom: 20px;
+    max-width: 350px;
   }
 
   .song-text {
+    max-width: 350px;
+  }
+}
+
+/* Small tablets */
+@media (max-width: 768px) {
+  .song-container-left,
+  .song-container-right {
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+
+  .song-text h1 {
+    font-size: 2rem;
+  }
+
+  .song-text h4 {
+    font-size: 1.25rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .song-container-left,
+  .song-container-right {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 40px;
+    width: calc(100% - 30px);
+  }
+
+  .song-image {
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 0;
+  }
+
+  .song-text {
+    width: 100%;
     padding: 10px;
+  }
+
+  .song-text h1 {
+    font-size: 1.75rem;
+  }
+
+  .song-text h4 {
+    font-size: 1.125rem;
+  }
+
+  .song-text p {
+    font-size: 1rem;
   }
 }
 
