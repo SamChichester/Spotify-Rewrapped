@@ -2,7 +2,6 @@ import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 import Home from '@/pages';
 import { songs } from '@/data/songs';
-import { mock } from 'node:test';
 
 const mockIntersectionObserver = jest.fn();
 mockIntersectionObserver.mockReturnValue({
